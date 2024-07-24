@@ -1,4 +1,7 @@
-
+// loder-js
+$(window).on('load', function () {
+    $('#lodder-wapper').delay(5000).fadeOut(1000)
+})
 // scroll-header-js
 $(window).on('scroll', function () {
     if ($(window).scrollTop()) {
