@@ -97,6 +97,7 @@
     visibility: visible !important;
     opacity: 1 !important;
 }
+
 .scroll-header {
     animation: bounce 1s linear forwards;
 }
