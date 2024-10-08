@@ -22,6 +22,11 @@
 
 .w-90 {
     width: 90px !important;
+    aspect-ratio: 1/1;
+}
+
+.bg-opacity-85{
+    --bs-bg-opacity: 0.85;
 }
 
 .bg-gr {
@@ -43,7 +48,7 @@
 }
 
 .frame {
-    width: 50px;
+    width: 45px;
     aspect-ratio: 1/1;
 }
 
@@ -58,6 +63,10 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
         /* BTN end */
+
+.s-icon:hover > span{
+    transform: scale(1.2);
+}
 
         /* Header start */
 .navbar-nav .nav-link::before, .navbar-nav .nav-link.active::before {
